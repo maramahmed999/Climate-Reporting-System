@@ -1,0 +1,11 @@
+//use this code to calibrate uy capacitive soil moisture sensor and get the max and mini value that can be read
+void setup() {
+  Serial.begin(9600);//This starts serial communication, so that the ESP32 can send out data through the USB connection.
+
+}
+
+void loop() {
+  int val= analogRead(36);// store the capacitive soil moisture readings in variable val.
+  Serial.print(val);
+  delay(500); //stop for 500 milliseconds. 
+}
