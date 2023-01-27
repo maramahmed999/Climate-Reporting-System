@@ -75,3 +75,4 @@ void loop() {
   delay(15000);// stop for 15 sec and update thing speak fields.
   // our GUI link:https://thingspeak.com/channels/1976108
 }
+//if u want to have a look on system's cirduit, u can visit this link: https://drive.google.com/drive/folders/1oadIBi9AAuemlmkpC5C__7qEIJRDxS6W?usp=share_link
