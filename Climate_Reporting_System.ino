@@ -33,6 +33,7 @@ void connecToWiFi() {
     delay(100);
   }
  digitalWrite(green, LOW);
+  
  digitalWrite(blue, HIGH);
  }
 
